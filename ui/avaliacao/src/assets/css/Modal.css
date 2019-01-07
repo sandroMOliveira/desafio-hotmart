@@ -1,0 +1,43 @@
+[class*="styles_modal"] {
+  border-radius: 2rem !important;
+  padding: 4rem !important;
+  max-width: 100% !important; }
+  [class*="styles_modal"] label {
+    font-size: 20px !important;
+    padding-right: 1rem !important; }
+  [class*="styles_modal"] h2 {
+    padding-bottom: 2rem !important; }
+  [class*="styles_modal"] span {
+    font-size: 16px; }
+
+.pl-2 {
+  padding-left: 2rem; }
+
+.btn-cancel, .btn-continue {
+  background: coral;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  padding: 10px; }
+
+.btn-cancel {
+  background-color: #b71c1c;
+  float: left; }
+
+.btn-continue {
+  background-color: #1b5e20;
+  float: right; }
+
+.back-drop {
+  background-color: rgba(48, 49, 48, 0.42);
+  height: 100%;
+  position: fixed;
+  transition: all 1.3s;
+  width: 100%; }
+
+.open-modal-btn {
+  margin: 15px;
+  padding: 10px;
+  font-weight: bold; }
